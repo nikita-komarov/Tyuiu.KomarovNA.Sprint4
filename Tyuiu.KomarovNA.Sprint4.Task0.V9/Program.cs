@@ -31,6 +31,7 @@ namespace Tyuiu.KomarovNA.Sprint4.Task0.V9
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
+
             DataService ds = new DataService();
 
             var result = ds.GetSumEvenArrEl([ 4 ,6 ,2 ,8 ,4 ,5 ,6 ,9 ,8 ,7]);
