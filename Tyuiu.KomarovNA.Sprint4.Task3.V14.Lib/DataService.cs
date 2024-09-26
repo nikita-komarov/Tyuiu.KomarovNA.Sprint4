@@ -8,7 +8,6 @@ namespace Tyuiu.KomarovNA.Sprint4.Task3.V14.Lib
         {
             int maxInFourthRow = array[3, 0];
 
-            // Проходим по элементам четвёртой строки
             for (int j = 1; j < array.GetLength(1); j++)
             {
                 if (array[3, j] > maxInFourthRow)
